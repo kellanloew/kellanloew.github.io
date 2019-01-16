@@ -83,3 +83,11 @@ footer.main-footer{
 	padding-top: 18px;
 	padding-bottom: 18px;
 }
+
+footer.main-footer p{
+	color: #070c07;
+}
+
+#sourced{
+	color: #070c07;
+}
