@@ -1,0 +1,85 @@
+
+[data-animate] {
+	visibility: visible;
+}
+
+.intro-section .logo{
+	margin-bottom: 48px;
+}
+
+.nav-link{
+	color: #ffd700;
+}
+
+#git-link:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+.contact{
+	background-image: url("../img/code.jpg");
+	background-size: cover;
+}
+
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover{
+	color: #53c68c;
+}
+
+.my-color{
+	color: #53c68c;
+}
+
+.my-bg-color{
+	background-color: #53c68c;
+}
+
+.about-section .progress .progress-bar-skill{
+	background-color: #53c68c;
+}
+
+#filter li.active a, #filter li:hover{
+	background-color: #53c68c;
+}
+
+#filter li.active a, #filter li:hover a{
+	background-color: #53c68c;
+}
+
+#filter li a{
+	color: #53c68c;
+}
+
+#filter li{
+	color: #53c68c;
+}
+
+.name-size{
+	font-size: 20pt;
+	text-shadow: 1px 1px 2px #2a6d4b;
+}
+
+body{
+	background-color: #fcf8e0;
+}
+
+a{
+	color: #53c68c;
+}
+
+#linkedin{
+	color: #cc0c4c;
+	font-weight: bold;
+	font-size: 25pt;
+	transition: color .2s ease;
+}
+
+#linkedin:hover{
+	color: #fc6497;
+}
+
+
+footer.main-footer{
+	background-color: #fcf8e0;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
