@@ -91,3 +91,12 @@ footer.main-footer p{
 #sourced{
 	color: #070c07;
 }
+
+.block {
+    height:100px;
+    width:200px;
+    text-align:left;
+}
+.center {
+    margin:auto;
+}
