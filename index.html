@@ -316,12 +316,40 @@
                                   </div>
                               </div>
                           </a>
-                          <div data-images="img/Python/images-hompage.PNG, friend_request_options.PNG" class="sr-only reference-description">
-                              <p>Data scraping website</p>
-                              <p class="buttons text-center"><a href="https://github.com/kellanloew/University-of-Arizona-Projects" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
+                          <div data-images="img/Python/js_for_hompage.PNG, img/Python/images-hompage.PNG, img/Python/friend_request_options.PNG, img/Python/friend_dropdown_list_html.PNG, img/Python/weather_alerts_code.PNG, img/Python/weather_alerts_html.PNG, img/Python/weather_alerts.PNG,
+                          img/Python/add_movie_images_from_API.PNG, img/Python/movie_page.PNG, img/Python/event_scraper_1.PNG, img/Python/event_scraper_2.PNG, img/Python/events_page.PNG, img/Python/change_preferences_1.PNG, img/Python/change_preferences_2.PNG, img/Python/change_preferences_3.PNG, img/Python/change_preferences_html.PNG, img/Python/change_preferences.PNG" class="sr-only reference-description">
+                              <p>In a two-week-long sprint, I worked on a team of fellow junior software developers in creating a django website that fetched and aggregated data based on user-preferences, such as weather alerts, current traffic, sport events, concerts, movies, and podcasts.  Below are a list of my contributions to the project:</p>
+                              <p>1. Home Page. Made the homepage a grid of photos which when clicked direct the user to the latest updates regarding that category, and displays a error-modal if access is attempted to a category without being logged in.</p>
+                              <p>2. Populating a dropdown list for sending messages to friends.</p>
+                              <p>3. Weather Alerts. Queried the weather API for current weather alerts, including title, times, and areas affected. Parsed the JSON string and saved appropriate parts to variables in a dictionary, and passing this dictionary to the HTMl I displayed the information nicely formatted.</p>
+                              <p>4. Add Movie Images. Retreived the URLs for the top movie titles from an online API via JSON, and displayed them tabularly in a view.</p>
+                              <p>5. Events. Query event API for relevant data by zipcode, then if returns nothing, query by cityname.  Send this dictionary of variables to HTML where it was displayed appropriately.</p>
+                              <p>6. Change preferences. Auto-populate list of favorite sports teams, and retrieve the user's favorite team.</p>
                           </div>
                       </div>
                   </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference">
+                        <a href="#">
+                            <img src="img/Csharp/chatbox.PNG" alt="pic" class="img-fluid">
+                            <div class="overlay">
+                                <div class="inner">
+                                    <h3 class="h4 reference-title">Erectors, INC</h3>
+                                    <p>Job/Schedule organizer for a construction company.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div data-images="img/Csharp/jquery_for_navbar.PNG, img/Csharp/navbar_redesign.PNG, img/Csharp/chatbox-HTML.PNG, img/Csharp/chatbox-CSS-1.PNG, img/Python/weather_alerts_code.PNG, img/Python/weather_alerts_html.PNG, img/Python/weather_alerts.PNG,
+                        img/Python/add_movie_images_from_API.PNG, img/Python/movie_page.PNG, img/Python/event_scraper_1.PNG, img/Python/event_scraper_2.PNG, img/Python/events_page.PNG, img/Python/change_preferences_1.PNG, img/Python/change_preferences_2.PNG, img/Python/change_preferences_3.PNG, img/Python/change_preferences_html.PNG, img/Python/change_preferences.PNG" class="sr-only reference-description">
+                          <p>In a two-week-long sprint, I worked on a team of fellow junior software developers in creating an ASP.NET web app for Erector's INC.  The purpose of this site was to allow the administrators to create work schedules for their employees, in order to easily organize and keep track off the company's tasks. Below are a list of my contributions to the project:</p>
+						  <p>1. Redisigning the Navbar. I looked at the existing sister site as the model for the styling. Using jquery to alter the opacity of the navbar upon scrolling.
+						  <p>2. Creating a chatbox (front end). Learned about textarea tag in HTML, how to create a partial view layered on an existing view and common/visible on specific pages, the importance of referencing JS/Jquery tags in the right order. I styled the box similarly to the navbar, and made it collapsible.  The heading had the name of the person to whom the message was being sent. Then I added a dropdown list from which the user could choose who to send the message to.  Since the chatbox was supposed to be accesible on different pages, I could only pass a model to it from a controller that was common to the various controllers for the different pages. So I created a base controller from which the others inherited, and in that controller I queried the database for all the site users who would potentially become recipients for the messages.
+						  <p>3. Saving the messages to the DB.  On the server side chathub class, I was able to retreive the necessary data and save to the DB.
+						  <p>4. Creating a code-first model for Entity Framework with foreign keys. (no code snippet)
+						  <p>5. Making a controller to get list of schedules from DB and organizing them according to jobs, then creating a view page where this data can be displayed in a tabular form.</p>
+                      </div>
+                    </div>
+                </div>
                   <div data-category="misc" class="reference-item col-lg-3 col-md-6">
                       <div class="reference">
                           <a href="#">
