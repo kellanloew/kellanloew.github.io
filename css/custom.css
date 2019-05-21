@@ -100,3 +100,13 @@ footer.main-footer p{
 .center {
     margin:auto;
 }
+
+.owl-carousel .owl-item img{
+	width: 70%;
+	margin-left: 18%;
+	margin-right: 0;
+}
+.reference-description{
+	float: right;
+	background-color: white;
+}
