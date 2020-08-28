@@ -64,10 +64,12 @@
         </header>
         <div class="row">
           <div data-animate="fadeInUp" class="col-lg-6">
-            <p>I have a Bachelor's degree in Liberal Arts and Sciences from Thomas Aquinas College, I read and discussed with my peers the original texts of the greatest minds throughout the world. 
-            I then started school for electrical engineering, and one of my classes was a course in C.  I then realized I had a passion for programming, so switched over to the Tech Academy to get a certificate in Software Development.
-              On finishing there, I began teaching introductory coding lessons in the evenings. I am currently the lead PHP/Wordpress Developer buiding a website for Angelic Doctor Academy.</p>
-			<p>I am always trying to sharpen my skills and gain new knowledge, so you'll find me at various meetups, hackathons, and at work at coding projects with friends.  I love writing server-side code and working with databases.</p>
+            <p>I have a Bachelor's degree in Liberal Arts and Sciences from Thomas Aquinas College, and certificate in software development from the Tech Academy.
+              On finishing there, I began teaching introductory coding lessons for a few months. I am currently a full stack PHP developer building a website for startup,
+              <a href="https://ada.school" target="_blank">Angelic Doctor Academy</a>.
+              Being one of the few developers on the team, I have done everything from database design to back end code to implementing a dynamic front end. I am comfortable with all aspects of web development
+              but my passion is for back end work.</p>
+			      <p>I am always trying to sharpen my skills and gain new knowledge, so you'll find me at various meetups, hackathons, and at work at coding projects with friends.  I love writing server-side code and working with databases.</p>
             <p>My other interests include musical performance, composition, and other fine arts. I also love working with my hands on cars, carpentry, hiking, and tinkering with electronics and circuit design.</p>
           </div>
           <div data-animate="fadeInUp" class="col-lg-6">
@@ -157,12 +159,10 @@
             <p data-animate="fadeInUp" class="lead">I specialize in Full-Stack Web Development using PHP and Wordpress. I can also do Full-Stack development using ASP.NET and Django Technolgies.</p>
           </div>
           <ul id="filter" data-animate="fadeInUp">
-            <li class="active"><a href="#" data-filter="all">All</a></li>
-            <li><a href="#" data-filter="webdesign">Web Development</a></li>
-            <li><a href="#" data-filter="seo">Database</a></li>
-            <li><a href="#" data-filter="app">Apps</a></li>
-            <li><a href="#" data-filter="other">Games</a></li>
-			<li><a href="#" data-filter="misc">Miscellaneous</a></li>
+            <li class="active"><a class="project-type" href="#" data-filter="all">All</a></li>
+            <li><a class="project-type" href="#" data-filter="webdesign">Web Development</a></li>
+            <li><a class="project-type" href="#" data-filter="other">Games</a></li>
+			      <li><a class="project-type" href="#" data-filter="misc">Miscellaneous</a></li>
           </ul>
           <div id="detail">
             <div class="row">
@@ -178,40 +178,41 @@
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
               <div class="row">
-                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                      <div class="reference">
-                          <a href="#">
-                              <img src="img/pizza.png" alt="pic" class="img-fluid">
-                              <div class="overlay">
-                                  <div class="inner">
-                                      <h3 class="h4 reference-title">Online Pizza Ordering Form</h3>
-                                      <p>Front end project</p>
-                                  </div>
+
+                <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                  <div class="reference">
+                      <a href="#">
+                          <img src="img/ada.png" alt="pic" class="img-fluid">
+                          <div class="overlay">
+                              <div class="inner">
+                                  <h3 class="h4 reference-title">Angelic Doctor Academy</h3>
+                                  <p>Full Stack Web Application<p>
                               </div>
-                          </a>
-                          <div data-images="img/pizza.png" class="sr-only reference-description">
-                              <p>Uses HTML/CSS, Bootstrap, JavaScript, and jQuery to create an attractive page for customers to make and order a pizza of their choice.</p>
-                              <p class="buttons text-center"><a href="https://github.com/kellanloew/The-Tech-Academy-JavaScript-Projects" target="_blank" class="btn btn-outline-primary">See the code on GitHub</a></p>
                           </div>
+                      </a>
+                      <div data-images="img/ada-2.png, img/ada-3.png, img/ada-4.png" class="sr-only reference-description">
+                        <p>I began working on this site early on when there was only just a handful of draft code. I built off that code and turned into a full fledged site 
+                        for a homeschooling curriculum / academy, <a href="https://ada.school" target="_blank">Angelic Doctor Academy</a>.
+                        This site is the home of a remote, correspondence highschool that allows parents/guardians register students, and then pick and choose courses for them in a fully customized experience.
+                        It also involved desiging innovative software solutions, such as automatically generated lesson plans, dynamically calculated graphical grade reports, and other periodical reminders,
+                        all done through custom built software. Below are some of the specific tasks I accomplished:</p>
+                        <ul>
+                          <li>Built out a complex registration system for parents to enroll students, both front and backend</li>
+                          <li>Re-engineered database structure for various new features; wrote new procedures and views</li>
+                          <li>Converted an extensive Perl script to PHP in order to integrate third-party Learndash LMS functionality with corporate LMS</li>
+                          <li>Used Canvas.js to display charts of student academic progress over courses and lessons, and email parent's these progress charts</li>
+                          <li>Used ImageMagick PHP library and miniPaint editor to create a web based image markup app for grading homework images</li>
+                          <li>Developed an administrative plugin to handle managing new courses, books, and users</li>
+                          <li>Develop a C# app that acted as a customized FTP server using socket connections</li>
+                          <li>Set up synchronization of WooCommerce products with the academy's courses and books using the WooCommerce API</li>
+                          <li>Automatically synchronize student enrollments with corresponding WooCommerce Products</li>
+                          <li>Developed a lesson plan generator that gives day by day instructions for each course for each student; used C# automation with Word to format these into Word Documents</li> 
+                        </li>
+                          <p class="buttons text-center"><a href="https://github.com/kellanloew/Tech-Academy-C-Sharp-Projects/tree/master/InsuranceQuote" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
                       </div>
                   </div>
-                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                      <div class="reference">
-                          <a href="#">
-                              <img src="img/hotel.png" alt="pic" class="img-fluid">
-                              <div class="overlay">
-                                  <div class="inner">
-                                      <h3 class="h4 reference-title">Hotel Amenities</h3>
-                                      <p>Website focusing on admin side<p>
-                                  </div>
-                              </div>
-                          </a>
-                          <div data-images="img/hotel.png" class="sr-only reference-description">
-                              <p>This is a sample webiste for a hotel built with Django.  The features are mainly for the administrator, allowing him/her to add, delete, and edit products.</p>
-                              <p class="buttons text-center"><a href="https://github.com/kellanloew/Tech-Academy-Python-Projects/tree/master/hotel-products-website/src" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
-                          </div>
-                      </div>
-                  </div>
+                </div>
+
                   <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
                       <div class="reference">
                           <a href="#">
@@ -229,41 +230,7 @@
                           </div>
                       </div>
                   </div>
-        
-                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
-                      <div class="reference">
-                          <a href="#">
-                              <img src="img/books.jpg" alt="pic" class="img-fluid">
-                              <div class="overlay">
-                                  <div class="inner">
-                                      <h3 class="h4 reference-title">Sample Library</h3>
-                                      <p>Database and SQL queries<p>
-                                  </div>
-                              </div>
-                          </a>
-                          <div data-images="img/SQL.png,img/query.png" class="sr-only reference-description">
-                              <p>In this project I have created a database to keep track of all the books in different library branches, as well as the library patrons and which books each of the patrons have taken out on loan. Then, I created stored procedures that query for things like number of books loaned, book titles, borrower info, and combinations of such parameters.</p>
-                              <p class="buttons text-center"><a href="https://github.com/kellanloew/Tech-Academy-SQL-Projects" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
-                          </div>
-                      </div>
-                  </div>
-                  <div data-category="app" class="reference-item col-lg-3 col-md-6">
-                      <div class="reference">
-                          <a href="#">
-                              <img src="img/movefiles.png" alt="pic" class="img-fluid">
-                              <div class="overlay">
-                                  <div class="inner">
-                                      <h3 class="h4 reference-title">File search and move app</h3>
-                                      <p>Python and Tkinter<p>
-                                  </div>
-                              </div>
-                          </a>
-                          <div data-images="img/movefiles.png" class="sr-only reference-description">
-                              <p>This is a desktop app I built that allows the user to find two directories, and upon a command, will search for all .txt files in one directory and move them to another directory.</p>
-                              <p class="buttons text-center"><a href="https://github.com/kellanloew/Tech-Academy-Python-Projects/tree/master/fileMover" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
-                          </div>
-                      </div>
-                  </div>
+    
                   <div data-category="other" class="reference-item col-lg-3 col-md-6">
                       <div class="reference">
                           <a href="#">
@@ -318,18 +285,18 @@
                               </div>
                           </a>
                           <div data-images="img/Python/craigslist.PNG, img/Python/dashboard.PNG, img/Python/js-1.PNG, img/Python/news-app.PNG,
-                          img/Python/geoloc-display.PNG, img/Python/geoloc-check.PNG, img/Python/directions-display.PNG, img/Python/directions-map-1.PNG, img/Python/message-view-1.PNG,
-						  img/Python/movie-display-1.PNG, img/Python/movie-display-2.PNG, img/Python/movie-display-1.PNG, img/Python/movie-display-3.PNG, img/Python/movie-html-3.PNG, img/Python/movie-JS-1.PNG, img/Python/movie-view-2.PNG,
-						  img/Python/meal-search-display.PNG, img/Python/meal-display-1.PNG, img/Python/meal-display-2.PNG, img/Python/meal-display-3.PNG, img/Python/meal-recipe-HTML-3.PNG,
-						  img/Python/meal-view-1.PNG, img/Python/meal-view-3.PNG, img/Python/consolidate&geo-js-button.PNG, img/Python/consolidate&geo-js-profile.PNG, img/Python/consolidate-model-1.PNG, img/Python/consolidate-view-1.PNG, img/Python/consolidate-view-2.PNG, img/Python/custom-tag.PNG" class="sr-only reference-description">
+                            img/Python/geoloc-display.PNG, img/Python/geoloc-check.PNG, img/Python/directions-display.PNG, img/Python/directions-map-1.PNG, img/Python/message-view-1.PNG,
+                            img/Python/movie-display-1.PNG, img/Python/movie-display-1.PNG, img/Python/movie-display-3.PNG, img/Python/movie-html-3.PNG, img/Python/movie-JS-1.PNG, img/Python/movie-view-2.PNG,
+                            img/Python/meal-search-display.PNG, img/Python/meal-display-1.PNG, img/Python/meal-display-2.PNG, img/Python/meal-display-3.PNG, img/Python/meal-recipe-HTML-3.PNG,
+                            img/Python/meal-view-1.PNG, img/Python/meal-view-3.PNG, img/Python/consolidate&geo-js-button.PNG, img/Python/consolidate&geo-js-profile.PNG, img/Python/consolidate-model-1.PNG, img/Python/consolidate-view-1.PNG, img/Python/consolidate-view-2.PNG, img/Python/custom-tag.PNG" class="sr-only reference-description">
                               <p>In three two-week-long sprints, I worked on a team of fellow junior software developers in developing a revamped version of the django DataScraper I website. Below are a list of my contributions to the project:</p>
-							  <p>First Sprint - Front End:</p>
-							  <p>1. I was responsible for making the entire website have a uniform styling in terms of fonts, colors, and spacings. I was given a palette of theme colors to choose from, and apply them to buttons, backgrounds and text.</p>
-							  <p>2. Added an app manager to the profile page, consisting of compartments, each containing the app icon, several slider buttons, description, and list of app contributors. The icons and buttons are colored according to the agreed on colors for the apps.</p>
-							  <p>3. Converted the news-headings page into a carousel, with each entity as the news photo with an overlay of the headlines. The user could go through each one by clicking forward and backward arrows. Then I added a slider by which, though not at the moment fully functional, allowed the the user to navigate through the different headings more quickly.</p>
-							  <p>4. Added a default profile image if the user has not selected a personal one, and eliminated an upload button by automatically uploading/changing the picture once the user has selected a profile pic from a file explorer.</p>
-							  <p class="buttons text-center"><a href="https://github.com/kellanloew/LiveProjects/blob/master/README.md#third-sprint-python-front-end" target="_blank" class="btn btn-outline-primary">See more details on GitHub</a></p>
-							  <p>Second Sprint - Back End:</p>
+                            <p>First Sprint - Front End:</p>
+                            <p>1. I was responsible for making the entire website have a uniform styling in terms of fonts, colors, and spacings. I was given a palette of theme colors to choose from, and apply them to buttons, backgrounds and text.</p>
+                            <p>2. Added an app manager to the profile page, consisting of compartments, each containing the app icon, several slider buttons, description, and list of app contributors. The icons and buttons are colored according to the agreed on colors for the apps.</p>
+                            <p>3. Converted the news-headings page into a carousel, with each entity as the news photo with an overlay of the headlines. The user could go through each one by clicking forward and backward arrows. Then I added a slider by which, though not at the moment fully functional, allowed the the user to navigate through the different headings more quickly.</p>
+                            <p>4. Added a default profile image if the user has not selected a personal one, and eliminated an upload button by automatically uploading/changing the picture once the user has selected a profile pic from a file explorer.</p>
+                            <p class="buttons text-center"><a href="https://github.com/kellanloew/LiveProjects/blob/master/README.md#third-sprint-python-front-end" target="_blank" class="btn btn-outline-primary">See more details on GitHub</a></p>
+                            <p>Second Sprint - Back End:</p>
                               <p>5. Added a button that allowed the user to switch automatic location searching on or off. Made a column in the user profile table to save the user's preference, and implemented it in the weather app.</p>
                               <p>6. Added a zoomable map from Mapquest's API that showed the driving directions from the user's search.</p>
                               <p>7. Made the Messaging app to have response functionality and keep track of conversation threads.</p>
@@ -377,7 +344,7 @@
                           </a>
                           <div data-images="img/gear.png" class="sr-only reference-description">
                               <p>As a collaborator at Bootcampers Collective, I have worked with others in solving various algorithms.  Please check them out in our repository.</p>
-                              <p class="buttons text-center"><a href="https://github.com/andy-young/Coders-Workshop/tree/master/collaborators/KellanLoew" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
+                              <p class="buttons text-center"><a href="https://github.com/andy-young/Coders-Workshop/tree/master/Contributors/KellanLoew" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>See the code on GitHub</a></p>
                           </div>
                       </div>
                   </div>

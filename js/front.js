@@ -111,6 +111,10 @@ $(function () {
 
     });
 
+    $('.project-type').on("click", function(){
+        $(".close").click();
+    });
+
 
     /* =========================================
      * reference functionality
