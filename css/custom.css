@@ -3,6 +3,14 @@
 	visibility: visible;
 }
 
+.owl-item.active .item{
+	width: 150%;
+	/* width: auto !important; */
+}
+
+.owl-carousel .owl-item img{
+	margin-left: 10px !important;
+}
 
 .intro-section .logo{
 	margin-bottom: 48px;
